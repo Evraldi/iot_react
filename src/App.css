@@ -1,0 +1,76 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Polos, warna latar belakang putih */
+    color: #333; /* Teks gelap untuk keterbacaan */
+    min-height: 100vh;
+  }
+  
+  .App-header {
+    padding: 20px;
+    background-color: #ffffff; /* Header tetap putih */
+    color: #333; /* Teks gelap untuk header */
+  }
+  
+  .current-data {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .current-data h2 {
+    margin-bottom: 15px;
+    color: #007bff; /* Warna biru untuk heading */
+  }
+  
+  .current-data p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .history {
+    margin-top: 40px;
+  }
+  
+  .history h2 {
+    margin-bottom: 15px;
+    color: #007bff; /* Warna biru untuk judul history */
+  }
+  
+  .history table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .history th, .history td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .history th {
+    background-color: #007bff; /* Warna biru untuk header tabel */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .history td {
+    background-color: #ffffff; /* Latar belakang putih untuk sel tabel */
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .history tr:nth-child(even) td {
+    background-color: #f1f1f1; /* Warna latar belakang sel baris genap */
+  }
+  
+  strong {
+    color: #ff5722; /* Warna oranye untuk teks yang disorot */
+    font-weight: bold;
+  }
+  
