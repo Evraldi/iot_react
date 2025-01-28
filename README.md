@@ -1,2 +1,7 @@
-1. npm install
-2. npm start
+#install dependencies
+
+npm install
+
+#start web
+
+npm start
